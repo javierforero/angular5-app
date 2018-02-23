@@ -1,0 +1,11 @@
+.selected {
+    background-color: #CFD8DC !important;
+    color: white;
+}
+
+.heroes {
+    &-view {
+        text-align: center;
+        list-style-type: none; 
+    }
+}
