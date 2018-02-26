@@ -1,6 +1,27 @@
-$blue: #369;
+$white: #FFFF;
+$vhs-blue: #3D5AFE;
+
+html, body {
+    background-color: $white;
+}
+
+a {
+    text-decoration: none;
+    color: $vhs-blue;
+}
+.app {
+    &-wrapper {
+      text-align: center;
+      margin: 0 auto;
+    }
+    &-navigation {
+        padding: 30px;
+    }
+}
 h1 {
-    color: $blue;
+    color: $white;
+    padding: 30px;
+    background-color: $vhs-blue;
     font-family: Arial, Arial, Helvetica, sans-serif;
     font-size: 250%;
 }

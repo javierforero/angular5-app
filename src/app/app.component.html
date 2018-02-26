@@ -1,7 +1,12 @@
-<h1>{{ title }}</h1>
-<nav>
-  <a routerLink="/dashboard">Dashboard</a>
-  <a routerLink="/heroes">Heroes</a>
-</nav>
-<router-outlet></router-outlet>
-<app-messages></app-messages>
+<div class="app-wrapper">
+  <div class="app-title">
+    <h1>{{ title }}</h1>
+  </div>
+  <nav class="app-navigation">
+    <a routerLink="/dashboard">Dashboard</a>
+    <span>|</span>
+    <a routerLink="/heroes">Heroes</a>
+  </nav>
+  <router-outlet></router-outlet>
+  <app-messages></app-messages>
+</div>

@@ -1,0 +1,32 @@
+$vhs-blue: #536DFE;
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: space-around;
+  &-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: $vhs-blue;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+    &:hover {
+        background-color: #F8CC46;
+    }
+  }
+}
+
+.dashboard {
+    &-title {
+      padding: 30px;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+}
+
